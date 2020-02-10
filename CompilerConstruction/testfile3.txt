@@ -1,0 +1,72 @@
+class Main_class
+{	
+    public static void Main()
+    {	
+	int f=1;
+    }
+
+ class c2
+{
+    public void f2()
+    {	
+	
+    }
+}
+class c1:c2
+{
+    int h=45*3+2;
+    public void f1()
+    {
+	float g=2.1;
+
+    	int i=3;
+    	if(i<=3)
+    	{
+	    int j=1;
+        }
+	else
+	{
+	}
+    }
+}
+
+
+class c3
+{
+    public c1 f3()
+    {	
+	c1 obj5=new c1();
+
+    }
+}
+class c4
+{
+    public void f4()
+    {	
+	c3 obj7=new c3();
+    }
+    public void f4(int aaa)
+    {	
+	c3 obj9=new c3();
+	obj9.f3().h=45;
+    }
+
+}
+
+    c1 obj1=new c1();
+
+    int a=1;
+    int b=3;
+
+    c2 obj2=new c2();
+
+
+    float c=4.1;
+
+    c3 obj3=new c3();
+    int d=3;
+    float e=1.4;
+
+    c4 obj4=new c4();
+}
+$
